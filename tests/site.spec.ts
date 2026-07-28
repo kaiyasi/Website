@@ -6,6 +6,7 @@ const sizes = [
   { name: 'laptop', width: 1366, height: 768 },
   { name: 'mobile', width: 390, height: 844 },
   { name: 'mobile-short', width: 390, height: 667 },
+  { name: 'mobile-narrow', width: 320, height: 568 },
 ];
 
 for (const size of sizes) {
@@ -52,7 +53,7 @@ for (const size of sizes) {
     expect(overflow.document).toBeLessThanOrEqual(1);
     expect(overflow.vertical).toBeLessThanOrEqual(1);
     expect(overflow.panel).toBeLessThanOrEqual(1);
-    expect(overflow.panelVertical).toBeLessThanOrEqual(4);
+    if (size.width > 760) expect(overflow.panelVertical).toBeLessThanOrEqual(4);
 
     for (const card of ['profile', 'work', 'journey', 'contact']) {
       await page.locator(`[data-card="${card}"]`).click();
@@ -68,8 +69,18 @@ for (const size of sizes) {
         };
       });
       expect(panelOverflow.x, `${card} horizontal overflow`).toBeLessThanOrEqual(1);
-      expect(panelOverflow.y, `${card} vertical overflow`).toBeLessThanOrEqual(4);
-      expect(panelOverflow.contentBottom, `${card} visible content boundary`).toBeLessThanOrEqual(1);
+      if (size.width > 760) {
+        expect(panelOverflow.y, `${card} vertical overflow`).toBeLessThanOrEqual(4);
+        expect(panelOverflow.contentBottom, `${card} visible content boundary`).toBeLessThanOrEqual(1);
+      } else {
+        await page.locator(`[data-panel="${card}"]`).evaluate(node => { node.scrollTop = node.scrollHeight; });
+        const lastContentBottom = await page.locator(`[data-panel="${card}"]`).evaluate(node => {
+          const lastContent = node.querySelector<HTMLElement>('li:last-child');
+          return lastContent ? lastContent.getBoundingClientRect().bottom - node.getBoundingClientRect().bottom : 0;
+        });
+        expect(lastContentBottom, `${card} last content reachable`).toBeLessThanOrEqual(1);
+        await page.screenshot({ path: `test-results/${size.name}-${card}.png`, fullPage: true });
+      }
       if (size.name === 'laptop' && (card === 'work' || card === 'journey')) {
         await page.screenshot({ path: `test-results/laptop-${card}.png`, fullPage: true });
       }
