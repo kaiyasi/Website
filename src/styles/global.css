@@ -135,8 +135,8 @@ h1 span:last-child { color: transparent; -webkit-text-stroke: 1.5px var(--ink); 
 
 @media (max-width: 760px) {
   body { grid-template-rows: 60px minmax(0, 1fr); }
-  .ambient { opacity: .16; background-position: 58% center; }
-  [data-theme='dark'] .ambient { opacity: .2; }
+  .ambient { opacity: .24; background-position: 58% center; }
+  [data-theme='dark'] .ambient { opacity: .28; }
   .site-header { height: 60px; padding: 0 1rem; grid-template-columns: minmax(0, 1fr) auto; }
   .site-header > p { display: none; }
   .wordmark { gap: .5rem; }
@@ -144,11 +144,12 @@ h1 span:last-child { color: transparent; -webkit-text-stroke: 1.5px var(--ink); 
   .wordmark small { gap: .4rem; color: var(--ink); font-size: .5rem; }
   .header-tools { padding: 2px; }
   .language-control select, .icon-button { height: 34px; }
-  .stage { width: 100%; height: 100%; min-height: 0; padding: 0; display: block; }
+  .stage { width: min(calc(100% - 1rem), 620px); height: 100%; min-height: 0; padding: .5rem 0; display: block; }
   .stage-meta { display: none; }
-  .card-deck { width: 100%; height: 100%; min-height: 0; display: block; }
-  .ticket-frame { --ticket-angle: 0deg; --index-height: 60px; width: 100%; height: 100%; aspect-ratio: auto; border: 0; box-shadow: none; backdrop-filter: none; clip-path: none; transform: none; }
-  .ticket-frame::before { display: none; }
+  .card-deck { width: 100%; height: 100%; min-height: 0; display: block; filter: drop-shadow(0 18px 28px color-mix(in srgb, var(--ink) 18%, transparent)); }
+  .ticket-frame { --ticket-angle: 0deg; --index-height: 60px; width: 100%; height: 100%; aspect-ratio: auto; border: 1px solid var(--line); box-shadow: none; backdrop-filter: blur(16px); clip-path: var(--ticket-shape); transform: none; }
+  .ticket-frame::before { display: block; background: linear-gradient(145deg, rgba(255,255,255,.1), transparent 36%); }
+  [data-theme='dark'] .ticket-frame::before { display: none; }
   .ticket-topline { height: 18px; grid-template-columns: 21% 14% 1fr; }
   .ticket-topline span { padding-right: 1rem; font-size: .44rem; }
   .panel { inset: 18px 0 var(--index-height); background-color: var(--panel); overflow-x: hidden; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; scrollbar-color: var(--line) transparent; }
@@ -218,6 +219,7 @@ h1 span:last-child { color: transparent; -webkit-text-stroke: 1.5px var(--ink); 
   .header-tools { gap: 0; }
   .language-control select { min-width: 68px; padding-left: .5rem; }
   .icon-button { width: 32px; }
+  .stage { width: calc(100% - .75rem); padding: .375rem 0; }
   .cover-copy, .info-panel { padding-right: 1rem; padding-left: 1rem; }
   h1 { font-size: 3.35rem; }
   .primary-action, .text-action { padding-right: .55rem; padding-left: .55rem; font-size: .62rem; }
