@@ -1,0 +1,526 @@
+{
+  "version": 1,
+  "generatedAt": "2026-07-24T15:23:11.150Z",
+  "locales": [
+    "zh-TW",
+    "en",
+    "ja",
+    "ko"
+  ],
+  "profile": {
+    "zh-TW": {
+      "name": "Kaiyasi",
+      "alias": "Serelix UI",
+      "role": "Class of 2026 (Special Selection) · Full-stack Developer · CTF Novice",
+      "intro": "記錄開發筆記、學習心得與參與經驗。",
+      "location": "Taipei, Taiwan",
+      "skills": [
+        "HTML",
+        "CSS",
+        "React",
+        "Vue.js",
+        "JavaScript",
+        "TypeScript",
+        "Tailwind CSS",
+        "Astro",
+        "Hexo",
+        "Hugo",
+        "FastAPI",
+        "Node.js"
+      ],
+      "journey": [
+        {
+          "title": "SITCON Camp 2026",
+          "detail": "Development Team Member · Web & Outdoor Game Development"
+        },
+        {
+          "title": "Serelix Studio",
+          "detail": "Co-Founder & Chief Technology Officer (CTO) · Leading technical strategy and overseeing digital product development and open-source initiatives."
+        },
+        {
+          "title": "SCAICT",
+          "detail": "Head of Information Technology (5th) · Directing IT operations and community platform development."
+        },
+        {
+          "title": "SCIST × SCAICT WinterCamp 2026",
+          "detail": "IT Team Member · Contributed to the development and maintenance of the official event infrastructure."
+        },
+        {
+          "title": "115th Special Enrollment Candidate",
+          "detail": "Recognized specialized talent in the 115th Special Enrollment admissions program."
+        },
+        {
+          "title": "Neihu Senior High School · 13th Computer Science Class",
+          "detail": "36th graduated (NHCS 13th)"
+        }
+      ],
+      "contact": [
+        {
+          "label": "GITHUB",
+          "value": "kaiyasi",
+          "url": "https://github.com/kaiyasi"
+        },
+        {
+          "label": "PROFESSIONAL EMAIL",
+          "value": "zengcode0315@gmail.com",
+          "url": "mailto:zengcode0315@gmail.com"
+        },
+        {
+          "label": "PERSONAL EMAIL",
+          "value": "zengeric0315@gmail.com",
+          "url": "mailto:zengeric0315@gmail.com"
+        },
+        {
+          "label": "DISCORD",
+          "value": "kaiyasi",
+          "url": "https://discord.com/users/759651999036997672"
+        },
+        {
+          "label": "INSTAGRAM",
+          "value": "kaiyasi.0315",
+          "url": "https://www.instagram.com/kaiyasi.0315/"
+        }
+      ]
+    },
+    "en": {
+      "name": "Kaiyasi",
+      "alias": "Serelix UI",
+      "role": "Class of 2026 (Special Selection) · Full-stack Developer · CTF Novice",
+      "intro": "Notes on development, learning, and the experiences along the way.",
+      "location": "Taipei, Taiwan",
+      "skills": [
+        "HTML",
+        "CSS",
+        "React",
+        "Vue.js",
+        "JavaScript",
+        "TypeScript",
+        "Tailwind CSS",
+        "Astro",
+        "Hexo",
+        "Hugo",
+        "FastAPI",
+        "Node.js"
+      ],
+      "journey": [
+        {
+          "title": "SITCON Camp 2026",
+          "detail": "Development Team Member · Web & Outdoor Game Development"
+        },
+        {
+          "title": "Serelix Studio",
+          "detail": "Co-Founder & Chief Technology Officer (CTO) · Leading technical strategy and overseeing digital product development and open-source initiatives."
+        },
+        {
+          "title": "SCAICT",
+          "detail": "Head of Information Technology (5th) · Directing IT operations and community platform development."
+        },
+        {
+          "title": "SCIST × SCAICT WinterCamp 2026",
+          "detail": "IT Team Member · Contributed to the development and maintenance of the official event infrastructure."
+        },
+        {
+          "title": "115th Special Enrollment Candidate",
+          "detail": "Recognized specialized talent in the 115th Special Enrollment admissions program."
+        },
+        {
+          "title": "Neihu Senior High School · 13th Computer Science Class",
+          "detail": "36th graduated (NHCS 13th)"
+        }
+      ],
+      "contact": [
+        {
+          "label": "GITHUB",
+          "value": "kaiyasi",
+          "url": "https://github.com/kaiyasi"
+        },
+        {
+          "label": "PROFESSIONAL EMAIL",
+          "value": "zengcode0315@gmail.com",
+          "url": "mailto:zengcode0315@gmail.com"
+        },
+        {
+          "label": "PERSONAL EMAIL",
+          "value": "zengeric0315@gmail.com",
+          "url": "mailto:zengeric0315@gmail.com"
+        },
+        {
+          "label": "DISCORD",
+          "value": "kaiyasi",
+          "url": "https://discord.com/users/759651999036997672"
+        },
+        {
+          "label": "INSTAGRAM",
+          "value": "kaiyasi.0315",
+          "url": "https://www.instagram.com/kaiyasi.0315/"
+        }
+      ]
+    },
+    "ja": {
+      "name": "Kaiyasi",
+      "alias": "Serelix UI",
+      "role": "2026年度卒業予定（特殊選抜）・フルスタック開発者・CTF初心者",
+      "intro": "開発、学び、参加した活動の記録を残しています。",
+      "location": "Taipei, Taiwan",
+      "skills": [
+        "HTML",
+        "CSS",
+        "React",
+        "Vue.js",
+        "JavaScript",
+        "TypeScript",
+        "Tailwind CSS",
+        "Astro",
+        "Hexo",
+        "Hugo",
+        "FastAPI",
+        "Node.js"
+      ],
+      "journey": [
+        {
+          "title": "SITCON Camp 2026",
+          "detail": "開発チームメンバー・Webおよび屋外ゲーム開発"
+        },
+        {
+          "title": "Serelix Studio",
+          "detail": "共同創業者兼最高技術責任者（CTO）・技術戦略を主導し、デジタル製品開発とオープンソース活動を統括。"
+        },
+        {
+          "title": "SCAICT",
+          "detail": "第5期情報技術責任者・IT運用とコミュニティプラットフォーム開発を統括。"
+        },
+        {
+          "title": "SCIST × SCAICT WinterCamp 2026",
+          "detail": "情報技術チームメンバー・公式イベント基盤の開発と保守を担当。"
+        },
+        {
+          "title": "115年度特殊選抜受験生",
+          "detail": "115年度特殊選抜入試において、専門的才能を持つ人材として認定されました。"
+        },
+        {
+          "title": "内湖高級中学・第13期コンピュータサイエンスクラス",
+          "detail": "第36期卒業（NHCS第13期）"
+        }
+      ],
+      "contact": [
+        {
+          "label": "GITHUB",
+          "value": "kaiyasi",
+          "url": "https://github.com/kaiyasi"
+        },
+        {
+          "label": "仕事用メール",
+          "value": "zengcode0315@gmail.com",
+          "url": "mailto:zengcode0315@gmail.com"
+        },
+        {
+          "label": "個人用メール",
+          "value": "zengeric0315@gmail.com",
+          "url": "mailto:zengeric0315@gmail.com"
+        },
+        {
+          "label": "DISCORD",
+          "value": "kaiyasi",
+          "url": "https://discord.com/users/759651999036997672"
+        },
+        {
+          "label": "INSTAGRAM",
+          "value": "kaiyasi.0315",
+          "url": "https://www.instagram.com/kaiyasi.0315/"
+        }
+      ]
+    },
+    "ko": {
+      "name": "Kaiyasi",
+      "alias": "Serelix UI",
+      "role": "2026년 졸업반(특별전형) · 풀스택 개발자 · CTF 입문자",
+      "intro": "개발과 배움, 참여 경험을 기록합니다.",
+      "location": "Taipei, Taiwan",
+      "skills": [
+        "HTML",
+        "CSS",
+        "React",
+        "Vue.js",
+        "JavaScript",
+        "TypeScript",
+        "Tailwind CSS",
+        "Astro",
+        "Hexo",
+        "Hugo",
+        "FastAPI",
+        "Node.js"
+      ],
+      "journey": [
+        {
+          "title": "SITCON Camp 2026",
+          "detail": "개발팀원 · 웹 및 야외 게임 개발"
+        },
+        {
+          "title": "Serelix Studio",
+          "detail": "공동 창립자 겸 최고기술책임자(CTO) · 기술 전략을 주도하고 디지털 제품 개발 및 오픈 소스 활동을 총괄합니다."
+        },
+        {
+          "title": "SCAICT",
+          "detail": "정보기술 책임자(5대) · IT 운영과 커뮤니티 플랫폼 개발을 총괄합니다."
+        },
+        {
+          "title": "SCIST × SCAICT WinterCamp 2026",
+          "detail": "IT 팀원 · 공식 행사 인프라 개발 및 유지보수에 기여했습니다."
+        },
+        {
+          "title": "115th Special Enrollment 지원자",
+          "detail": "115th Special Enrollment 입학 전형에서 전문 인재로 인정받았습니다."
+        },
+        {
+          "title": "Neihu Senior High School · 13th Computer Science Class",
+          "detail": "36회 졸업(NHCS 13th)"
+        }
+      ],
+      "contact": [
+        {
+          "label": "GITHUB",
+          "value": "kaiyasi",
+          "url": "https://github.com/kaiyasi"
+        },
+        {
+          "label": "업무용 이메일",
+          "value": "zengcode0315@gmail.com",
+          "url": "mailto:zengcode0315@gmail.com"
+        },
+        {
+          "label": "개인 이메일",
+          "value": "zengeric0315@gmail.com",
+          "url": "mailto:zengeric0315@gmail.com"
+        },
+        {
+          "label": "DISCORD",
+          "value": "kaiyasi",
+          "url": "https://discord.com/users/759651999036997672"
+        },
+        {
+          "label": "INSTAGRAM",
+          "value": "kaiyasi.0315",
+          "url": "https://www.instagram.com/kaiyasi.0315/"
+        }
+      ]
+    }
+  },
+  "projects": {
+    "zh-TW": [
+      {
+        "title": "Ari IME",
+        "description": "不必切換模式，就能在同一段輸入中自然混用英文與注音的 Fcitx5 繁體中文輸入法。",
+        "tags": [
+          "C++",
+          "Fcitx5",
+          "Linux",
+          "libchewing"
+        ],
+        "url": "https://aur.archlinux.org/packages/fcitx5-ari-ime",
+        "github": "https://github.com/kaiyasi/Ari-IME"
+      },
+      {
+        "title": "This Blog",
+        "description": "用 Astro 從零打造的個人 Blog，Given 主題風格語言。",
+        "tags": [
+          "Astro",
+          "CSS",
+          "TypeScript"
+        ],
+        "github": "https://github.com/kaiyasi/blog"
+      },
+      {
+        "title": "ForumKit",
+        "description": "A modular and extensible forum starter kit built with high scalability, designed to streamline the development of modern community platforms.",
+        "tags": [],
+        "github": "https://github.com/kaiyasi/FourmKit"
+      },
+      {
+        "title": "SCIST WinterCamp 2026 Website",
+        "description": "The official digital portal for the 2026 SCIST x SCAICT Joint Winter Camp, integrating event documentation, participant guides, and regional tech community resources.",
+        "tags": [],
+        "github": "https://github.com/scist-tw/WinterCamp2026"
+      },
+      {
+        "title": "Kairo",
+        "description": "A multifunctional attendance and management bot designed for high school tech communities, providing automated check-in systems, status tracking, and streamlined event coordination.",
+        "tags": [],
+        "github": "https://github.com/kaiyasi/Kairo"
+      },
+      {
+        "title": "CipherKit",
+        "description": "A comprehensive web-based toolkit offering practical cryptographic utilities, encoding/decoding tools, and programming helpers, built for students and CTF enthusiasts.",
+        "tags": [],
+        "github": "https://github.com/kaiyasi/CipherKit"
+      },
+      {
+        "title": "Cardium",
+        "description": "A modern digital identity generator designed to unify and visually present personal or organizational profiles, focusing on clean UI design and structured metadata presentation.",
+        "tags": [],
+        "github": "https://github.com/kaiyasi/Cardium"
+      }
+    ],
+    "en": [
+      {
+        "title": "Ari IME",
+        "description": "A Fcitx5 Traditional Chinese input method that naturally mixes English and Zhuyin within the same input sequence without switching modes.",
+        "tags": [
+          "C++",
+          "Fcitx5",
+          "Linux",
+          "libchewing"
+        ],
+        "url": "https://aur.archlinux.org/packages/fcitx5-ari-ime",
+        "github": "https://github.com/kaiyasi/Ari-IME"
+      },
+      {
+        "title": "This Blog",
+        "description": "A personal blog built from scratch with Astro, inspired by the visual language of the Given theme.",
+        "tags": [
+          "Astro",
+          "CSS",
+          "TypeScript"
+        ],
+        "github": "https://github.com/kaiyasi/blog"
+      },
+      {
+        "title": "ForumKit",
+        "description": "A modular and extensible forum starter kit built with high scalability, designed to streamline the development of modern community platforms.",
+        "tags": [],
+        "github": "https://github.com/kaiyasi/FourmKit"
+      },
+      {
+        "title": "SCIST WinterCamp 2026 Website",
+        "description": "The official digital portal for the 2026 SCIST x SCAICT Joint Winter Camp, integrating event documentation, participant guides, and regional tech community resources.",
+        "tags": [],
+        "github": "https://github.com/scist-tw/WinterCamp2026"
+      },
+      {
+        "title": "Kairo",
+        "description": "A multifunctional attendance and management bot designed for high school tech communities, providing automated check-in systems, status tracking, and streamlined event coordination.",
+        "tags": [],
+        "github": "https://github.com/kaiyasi/Kairo"
+      },
+      {
+        "title": "CipherKit",
+        "description": "A comprehensive web-based toolkit offering practical cryptographic utilities, encoding/decoding tools, and programming helpers, built for students and CTF enthusiasts.",
+        "tags": [],
+        "github": "https://github.com/kaiyasi/CipherKit"
+      },
+      {
+        "title": "Cardium",
+        "description": "A modern digital identity generator designed to unify and visually present personal or organizational profiles, focusing on clean UI design and structured metadata presentation.",
+        "tags": [],
+        "github": "https://github.com/kaiyasi/Cardium"
+      }
+    ],
+    "ja": [
+      {
+        "title": "Ari IME",
+        "description": "モードを切り替えることなく、同じ入力内で英語と注音を自然に混在できるFcitx5繁体字中国語入力メソッド。",
+        "tags": [
+          "C++",
+          "Fcitx5",
+          "Linux",
+          "libchewing"
+        ],
+        "url": "https://aur.archlinux.org/packages/fcitx5-ari-ime",
+        "github": "https://github.com/kaiyasi/Ari-IME"
+      },
+      {
+        "title": "This Blog",
+        "description": "Astro でゼロから構築した個人 Blog。Given テーマのスタイルを採用。",
+        "tags": [
+          "Astro",
+          "CSS",
+          "TypeScript"
+        ],
+        "github": "https://github.com/kaiyasi/blog"
+      },
+      {
+        "title": "ForumKit",
+        "description": "高い拡張性を備えたモジュール式のフォーラムスターターキット。現代的なコミュニティプラットフォームの開発を効率化します。",
+        "tags": [],
+        "github": "https://github.com/kaiyasi/FourmKit"
+      },
+      {
+        "title": "SCIST WinterCamp 2026公式サイト",
+        "description": "2026 SCIST x SCAICT合同ウィンターキャンプの公式デジタルポータル。イベント資料、参加者向けガイド、地域技術コミュニティのリソースを統合しています。",
+        "tags": [],
+        "github": "https://github.com/scist-tw/WinterCamp2026"
+      },
+      {
+        "title": "Kairo",
+        "description": "高校の技術コミュニティ向けに設計された多機能な出席・管理ボット。自動チェックイン、ステータス追跡、効率的なイベント運営を提供します。",
+        "tags": [],
+        "github": "https://github.com/kaiyasi/Kairo"
+      },
+      {
+        "title": "CipherKit",
+        "description": "実用的な暗号化ユーティリティ、エンコード・デコードツール、プログラミング支援機能を提供する総合Webツールキット。学生とCTF愛好者向けに開発されています。",
+        "tags": [],
+        "github": "https://github.com/kaiyasi/CipherKit"
+      },
+      {
+        "title": "Cardium",
+        "description": "個人や組織のプロフィールを統一して視覚的に表現する、現代的なデジタルアイデンティティ生成ツール。洗練されたUIデザインと構造化されたメタデータ表示を重視しています。",
+        "tags": [],
+        "github": "https://github.com/kaiyasi/Cardium"
+      }
+    ],
+    "ko": [
+      {
+        "title": "Ari IME",
+        "description": "모드를 전환하지 않고도 하나의 입력에서 영어와 주음을 자연스럽게 함께 사용할 수 있는 Fcitx5용 번체 중국어 입력기.",
+        "tags": [
+          "C++",
+          "Fcitx5",
+          "Linux",
+          "libchewing"
+        ],
+        "url": "https://aur.archlinux.org/packages/fcitx5-ari-ime",
+        "github": "https://github.com/kaiyasi/Ari-IME"
+      },
+      {
+        "title": "This Blog",
+        "description": "Astro로 처음부터 만든 개인 블로그로, Given 테마의 스타일을 차용했습니다.",
+        "tags": [
+          "Astro",
+          "CSS",
+          "TypeScript"
+        ],
+        "github": "https://github.com/kaiyasi/blog"
+      },
+      {
+        "title": "ForumKit",
+        "description": "높은 확장성을 갖춘 모듈형 포럼 스타터 키트로, 현대적인 커뮤니티 플랫폼 개발을 간소화합니다.",
+        "tags": [],
+        "github": "https://github.com/kaiyasi/FourmKit"
+      },
+      {
+        "title": "SCIST WinterCamp 2026 웹사이트",
+        "description": "2026 SCIST x SCAICT Joint Winter Camp의 공식 디지털 포털로, 행사 문서와 참가자 안내, 지역 기술 커뮤니티 리소스를 통합합니다.",
+        "tags": [],
+        "github": "https://github.com/scist-tw/WinterCamp2026"
+      },
+      {
+        "title": "Kairo",
+        "description": "고등학교 기술 커뮤니티를 위한 다기능 출석·관리 봇으로, 자동 체크인, 상태 추적, 효율적인 행사 운영 기능을 제공합니다.",
+        "tags": [],
+        "github": "https://github.com/kaiyasi/Kairo"
+      },
+      {
+        "title": "CipherKit",
+        "description": "학생과 CTF 애호가를 위해 실용적인 암호화 유틸리티, 인코딩·디코딩 도구, 프로그래밍 보조 기능을 제공하는 종합 웹 도구 모음입니다.",
+        "tags": [],
+        "github": "https://github.com/kaiyasi/CipherKit"
+      },
+      {
+        "title": "Cardium",
+        "description": "개인 또는 조직의 프로필을 통합해 시각적으로 표현하는 현대적인 디지털 아이덴티티 생성기로, 깔끔한 UI 디자인과 구조화된 메타데이터 표현에 중점을 둡니다.",
+        "tags": [],
+        "github": "https://github.com/kaiyasi/Cardium"
+      }
+    ]
+  }
+}

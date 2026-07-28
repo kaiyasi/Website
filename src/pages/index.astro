@@ -1,0 +1,118 @@
+---
+import snapshot from '../data/profile.json';
+import '../styles/global.css';
+
+const ui = {
+  'zh-TW': { nav: ['封面', '關於', '作品', '歷程', '聯絡'], cover: '個人入口網站', cue: '選擇一張卡片', profile: '關於我', work: '精選作品', journey: '一路走來', contact: '保持聯絡', blog: '前往 Blog', open: '查看作品', source: '原始碼', live: '現場訊號', available: '歡迎交流、合作與新想法' },
+  en: { nav: ['Cover', 'Profile', 'Work', 'Journey', 'Contact'], cover: 'Personal gateway', cue: 'Choose a card', profile: 'Profile', work: 'Selected work', journey: 'Journey', contact: 'Stay in touch', blog: 'Read the blog', open: 'View project', source: 'Source', live: 'Live signal', available: 'Open to collaboration and conversation' },
+  ja: { nav: ['表紙', '紹介', '作品', '歩み', '連絡'], cover: 'パーソナルゲートウェイ', cue: 'カードを選ぶ', profile: 'プロフィール', work: '主な作品', journey: 'これまで', contact: 'お問い合わせ', blog: 'Blog を読む', open: '作品を見る', source: 'ソース', live: 'ライブ信号', available: 'コラボレーションや交流を歓迎します' },
+  ko: { nav: ['표지', '소개', '작업', '여정', '연락'], cover: '개인 게이트웨이', cue: '카드를 선택하세요', profile: '프로필', work: '주요 작업', journey: '여정', contact: '연락하기', blog: 'Blog 읽기', open: '프로젝트 보기', source: '소스', live: '라이브 신호', available: '협업과 대화를 환영합니다' },
+};
+---
+<!doctype html>
+<html lang="zh-TW" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Kaiyasi — full-stack developer, CTF novice, and builder of useful systems." />
+    <link rel="canonical" href="https://gonets.top/" />
+    <link rel="icon" type="image/png" href="/images/avatar-white-cat.png" />
+    <title>Kaiyasi — Personal Gateway</title>
+    <script is:inline>
+      (() => {
+        const theme = localStorage.getItem('kaiyasi-theme');
+        const locale = localStorage.getItem('kaiyasi-locale');
+        document.documentElement.dataset.theme = theme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        if (locale) document.documentElement.lang = locale;
+      })();
+    </script>
+  </head>
+  <body>
+    <div class="ambient" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="wordmark" href="#" aria-label="Kaiyasi cover">
+        <span class="wordmark-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <b>Kaiyasi</b>
+        <small><i aria-hidden="true">|</i> Website</small>
+      </a>
+      <p><i></i><span>NCHU</span> | Frosh</p>
+      <div class="header-tools">
+        <label class="language-control">
+          <span class="sr-only">Language</span>
+          <select data-locale aria-label="Language">
+            <option value="zh-TW">繁中</option><option value="en">EN</option><option value="ja">日本語</option><option value="ko">한국어</option>
+          </select>
+        </label>
+        <button class="icon-button" data-theme-toggle type="button" aria-label="Toggle theme" title="Toggle theme">
+          <span class="sun">☼</span><span class="moon">◐</span>
+        </button>
+      </div>
+    </header>
+
+    <main class="stage">
+      <div class="stage-meta" aria-hidden="true">
+        <span>PERSONAL FILE / 0315</span><span>FULL-STACK · COMMUNITY · SECURITY</span>
+      </div>
+
+      <section class="card-deck" aria-live="polite">
+        <div class="ticket-frame">
+        <div class="ticket-topline" aria-hidden="true"><i></i><i></i><span>GNT / LIVE PASS / 0315</span></div>
+        <article class="panel cover-panel is-active" data-panel="cover" data-ticket-number="00" aria-labelledby="cover-title">
+          <div class="cover-copy">
+            <p class="eyebrow" data-ui="cover">個人入口網站</p>
+            <h1 id="cover-title"><span>Kai</span><span>yasi</span></h1>
+            <p class="lead" data-field="role">全端開發者 / CTF 初學者</p>
+            <div class="cover-actions">
+              <a class="primary-action" href="#profile"><span data-ui="profile">關於我</span><b>→</b></a>
+              <a class="text-action" href="https://blog.gonets.top"><span data-ui="blog">前往 Blog</span><b>↗</b></a>
+            </div>
+          </div>
+          <div class="portrait-block">
+            <div class="portrait-frame"><img src="/images/avatar-white-cat.png" alt="Kaiyasi avatar" width="720" height="720" /></div>
+            <p><span>FILE NO.</span><b>KY-0315</b></p>
+          </div>
+          <footer><span>BASED IN <b data-field="location">TAIPEI, TAIWAN</b></span><span>SCROLL? NO. <b>SELECT A CARD.</b></span></footer>
+        </article>
+
+        <article class="panel info-panel" data-panel="profile" data-ticket-number="01" aria-labelledby="profile-title" hidden>
+          <header><p>01 / IDENTITY</p><h2 id="profile-title" data-ui="profile">關於我</h2></header>
+          <div class="profile-layout">
+            <div><p class="statement" data-field="intro"></p><div class="status"><i></i><span data-ui="available">歡迎交流、合作與新想法</span></div></div>
+            <ul class="skill-list" data-skills></ul>
+          </div>
+        </article>
+
+        <article class="panel info-panel" data-panel="work" data-ticket-number="02" aria-labelledby="work-title" hidden>
+          <header><p>02 / SELECTED OUTPUT</p><h2 id="work-title" data-ui="work">精選作品</h2></header>
+          <ol class="project-list" data-projects></ol>
+        </article>
+
+        <article class="panel info-panel" data-panel="journey" data-ticket-number="03" aria-labelledby="journey-title" hidden>
+          <header><p>03 / TIMELINE</p><h2 id="journey-title" data-ui="journey">一路走來</h2></header>
+          <ol class="journey-list" data-journey></ol>
+        </article>
+
+        <article class="panel info-panel" data-panel="contact" data-ticket-number="04" aria-labelledby="contact-title" hidden>
+          <header><p>04 / OPEN CHANNELS</p><h2 id="contact-title" data-ui="contact">保持聯絡</h2></header>
+          <div class="contact-layout"><p class="contact-callout">LET'S MAKE<br/>SOMETHING<br/><i>USEFUL.</i></p><ul class="contact-list" data-contact></ul></div>
+        </article>
+        <nav class="card-switcher" aria-label="Information cards">
+          <p class="sr-only" data-ui="cue">選擇一張卡片</p>
+          <div>
+            {['cover', 'profile', 'work', 'journey', 'contact'].map((key, index) => (
+              <a href={key === 'cover' ? '#' : `#${key}`} data-card={key} class:list={{ 'is-active': key === 'cover' }}>
+                <small>{String(index).padStart(2, '0')}</small><span data-nav={index}></span>
+              </a>
+            ))}
+          </div>
+        </nav>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><span>© {new Date().getFullYear()} KAIYASI</span><span>GONETS.TOP / ISSUE 01</span></footer>
+    <script type="application/json" id="profile-snapshot" set:html={JSON.stringify(snapshot)}></script>
+    <script type="application/json" id="ui-copy" set:html={JSON.stringify(ui)}></script>
+    <script src="../scripts/site.ts"></script>
+  </body>
+</html>
