@@ -135,8 +135,8 @@ h1 span:last-child { color: transparent; -webkit-text-stroke: 1.5px var(--ink); 
 
 @media (max-width: 760px) {
   body { grid-template-rows: 60px minmax(0, 1fr); }
-  .ambient { opacity: .24; background-position: 58% center; }
-  [data-theme='dark'] .ambient { opacity: .28; }
+  .ambient { opacity: .32; background-position: 58% center; }
+  [data-theme='dark'] .ambient { opacity: .34; }
   .site-header { height: 60px; padding: 0 1rem; grid-template-columns: minmax(0, 1fr) auto; }
   .site-header > p { display: none; }
   .wordmark { gap: .5rem; }
@@ -144,9 +144,9 @@ h1 span:last-child { color: transparent; -webkit-text-stroke: 1.5px var(--ink); 
   .wordmark small { gap: .4rem; color: var(--ink); font-size: .5rem; }
   .header-tools { padding: 2px; }
   .language-control select, .icon-button { height: 34px; }
-  .stage { width: min(calc(100% - 1rem), 620px); height: 100%; min-height: 0; padding: .5rem 0; display: block; }
+  .stage { width: min(calc(100% - 2rem), 590px); height: 100%; min-height: 0; padding: 1rem 0; display: block; }
   .stage-meta { display: none; }
-  .card-deck { width: 100%; height: 100%; min-height: 0; display: block; filter: drop-shadow(0 18px 28px color-mix(in srgb, var(--ink) 18%, transparent)); }
+  .card-deck { width: 100%; height: 100%; min-height: 0; display: block; filter: drop-shadow(0 20px 32px color-mix(in srgb, var(--ink) 27%, transparent)); }
   .ticket-frame { --ticket-angle: 0deg; --index-height: 60px; width: 100%; height: 100%; aspect-ratio: auto; border: 1px solid var(--line); box-shadow: none; backdrop-filter: blur(16px); clip-path: var(--ticket-shape); transform: none; }
   .ticket-frame::before { display: block; background: linear-gradient(145deg, rgba(255,255,255,.1), transparent 36%); }
   [data-theme='dark'] .ticket-frame::before { display: none; }
@@ -219,7 +219,7 @@ h1 span:last-child { color: transparent; -webkit-text-stroke: 1.5px var(--ink); 
   .header-tools { gap: 0; }
   .language-control select { min-width: 68px; padding-left: .5rem; }
   .icon-button { width: 32px; }
-  .stage { width: calc(100% - .75rem); padding: .375rem 0; }
+  .stage { width: calc(100% - 1rem); padding: .5rem 0; }
   .cover-copy, .info-panel { padding-right: 1rem; padding-left: 1rem; }
   h1 { font-size: 3.35rem; }
   .primary-action, .text-action { padding-right: .55rem; padding-left: .55rem; font-size: .62rem; }
