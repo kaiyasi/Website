@@ -146,7 +146,7 @@ h1 span:last-child { color: transparent; -webkit-text-stroke: 1.5px var(--ink); 
   .language-control select, .icon-button { height: 34px; }
   .stage { width: min(calc(100% - 2rem), 590px); height: 100%; min-height: 0; padding: 1rem 0; display: block; }
   .stage-meta { display: none; }
-  .card-deck { width: 100%; height: 100%; min-height: 0; display: grid; place-items: start center; filter: drop-shadow(0 20px 32px color-mix(in srgb, var(--ink) 27%, transparent)); }
+  .card-deck { width: 100%; height: 100%; min-height: 0; display: grid; place-items: center; filter: drop-shadow(0 20px 32px color-mix(in srgb, var(--ink) 27%, transparent)); }
   .ticket-frame { --ticket-angle: 0deg; --index-height: 60px; --ticket-shape: polygon(0 0, 100% 0, 100% 60%, calc(100% - 11px) 62.5%, 100% 65%, 100% 100%, 0 100%, 0 65%, 11px 62.5%, 0 60%); width: 100%; height: min(100%, 540px); max-height: 100%; aspect-ratio: auto; border: 1px solid var(--line); box-shadow: none; backdrop-filter: blur(16px); clip-path: var(--ticket-shape); transform: none; }
   .ticket-frame::before { display: block; background: linear-gradient(145deg, rgba(255,255,255,.1), transparent 36%); }
   [data-theme='dark'] .ticket-frame::before { display: none; }
@@ -161,11 +161,11 @@ h1 span:last-child { color: transparent; -webkit-text-stroke: 1.5px var(--ink); 
   .cover-actions { width: 100%; margin-top: 1.25rem; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: .75rem; }
   .primary-action, .text-action { min-width: 0; min-height: 46px; gap: .75rem; padding: .75rem .85rem; font-size: .68rem; }
   .text-action { border: 1px solid var(--line); }
-  .portrait-block { grid-area: portrait; padding: .8rem 1.25rem; flex-direction: row; align-items: center; justify-content: center; gap: 1.25rem; border-bottom: 1px dashed var(--line); }
+  .portrait-block { grid-area: portrait; padding: .8rem 1.25rem; flex-direction: row; align-items: center; justify-content: center; border-bottom: 1px dashed var(--line); }
   .portrait-block::before { content: 'PERSONAL PASS / KY-0315'; top: .65rem; right: .8rem; left: auto; transform: none; font-size: .42rem; }
   .portrait-block::after { display: none; }
   .portrait-frame { width: 88px; margin: 0; }
-  .portrait-block > p { width: min(42%, 130px); margin: .9rem 0 0; flex-direction: column; gap: .35rem; font-size: .55rem; }
+  .portrait-block > p { position: absolute; right: 1.25rem; width: auto; margin: .9rem 0 0; flex-direction: column; gap: .35rem; font-size: .55rem; }
   .cover-panel > footer { bottom: 0; padding: .55rem 1.25rem; background: var(--panel); font-size: .46rem; }
   .cover-panel > footer span:last-child { display: none; }
   .info-panel { padding: 1.2rem 1.25rem 1.75rem; }
